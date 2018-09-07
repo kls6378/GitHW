@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+</head>
+<body>
+    <script>
+        var height=prompt("키를 입력해주세요.",0);
+        var weight=prompt("체중을 입력해주세요.",0);
+        var standard;
+        standard=(height-100)*0.9;
+
+        
+        if(standard-weight<=5&&standard-weight>=-5){
+            document.write("님은 표준체중입니다.");
+        }
+        else{
+            document.write("님은 표준체중이 아닙니다.");
+        }
+    </script>
+</body>
+</html>

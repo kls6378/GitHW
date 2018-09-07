@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // document.write("<h1>이걸로 어디까지 가능한가..</h1>");
+        // document.write("1+1<br>");
+        // document.write(1+1);
+        // var ret=prompt("태어난 해를 입력하세요.","2002");
+        // if(ret==""){
+        //     document.write("<br>입력하지 않았습니다.");
+        // }
+        // else if(ret>2019){
+        //     document.write("<br>당신은 태어나지 않았습니다.")
+        // }
+        // else{
+        //     var age=2019-ret;
+        //     document.write("<br>당신의 나이는 "+age+"세 입니다.");
+        // }
+        // var ret2=confirm("전송하시겠습니까?");
+        // if(ret2==true){
+        //     document.write("<br>전송되었습니다.");
+        // }
+        // else{
+        //     document.write("<br>전송에 실패하였습니다.");
+        // }
+        // alert("경고!!!!!!!!!!");
+        var a=10;//전역
+        // var b=10;
+        // a="10";
+        // document.write("typeof b = "+typeof b);
+        // document.write("<br>typeof a = "+typeof a);
+        // a=10;
+        // document.write("<br>typeof a = "+typeof a);
+
+        function f1(){
+            var a;//지역변수
+            a=20;
+            document.write(a);
+        }
+        f1();
+        document.write("<br>"+a);
+    </script>
+</body>
+</html>

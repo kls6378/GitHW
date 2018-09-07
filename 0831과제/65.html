@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>65</title>
+</head>
+<body>
+    <script>
+        var num;
+        var sum=0;;
+        var i=0;
+        document.write("<h1>1에서 얼마까지 더해야 3000을 넘는가?</h1>")
+        document.write("<hr>")
+        for(i=0;i<Infinity;i++){
+            sum+=i;
+            if(sum>=3000){
+                document.write(i+"까지 더하면 3000을 넘음 : "+sum);
+                break;
+            }
+        }
+    </script>
+</body>
+</html>
