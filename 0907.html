@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var arr=[20,5,8,15,20];
+        var i;
+        var j;
+        for(i=0;i<5;i++){
+            for(j=0;j<arr[i];j++){
+                document.write("*");
+            }
+            document.write(arr[i]+"<br>");
+        }
+        
+        document.write("<br><br><br>");
+
+        var arr2=new Array(15.1,15.4,16.1,17.5,19.2,21.4);
+        var k;
+        var sum=0;
+        for(k=0; k<arr2.length;k++){
+            sum+=arr2[k];
+        }
+        document.write("<h1>Array 객체로 배열 만들기</h1>");
+        document.write("<hr>");
+        document.write("평균 온도는 "+sum/arr2.length);
+    </script>
+</body>
+</html>
